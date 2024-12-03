@@ -4,6 +4,8 @@
 void Camera::SetLookAt(const DirectX::XMFLOAT3& eye, const DirectX::XMFLOAT3& focus,
 	const DirectX::XMFLOAT3& up)
 {
+
+
 	//視点、注意点、上方向からビュー行列を作成
 	DirectX::XMVECTOR Eye = DirectX::XMLoadFloat3(&eye);
 	DirectX::XMVECTOR Focus = DirectX::XMLoadFloat3(&focus);
