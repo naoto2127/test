@@ -14,6 +14,7 @@ public:
 	{
 		static Camera camera;
 		return camera;
+
 	}
 
 	//w’è•ûŒü‚ğŒü‚­
